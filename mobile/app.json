@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "TripSage",
+    "slug": "tripsage",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "tripsage",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F4EFE7"
+      }
+    },
+    "plugins": [
+      "expo-image-picker",
+      "expo-sharing",
+      "expo-status-bar"
+    ]
+  }
+}

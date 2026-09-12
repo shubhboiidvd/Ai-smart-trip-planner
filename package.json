@@ -1,0 +1,13 @@
+{
+  "name": "tripsage",
+  "private": true,
+  "workspaces": [
+    "mobile",
+    "server"
+  ],
+  "scripts": {
+    "server": "npm --workspace server run dev",
+    "mobile": "npm --workspace mobile start",
+    "install:all": "npm install --workspaces"
+  }
+}
